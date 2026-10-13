@@ -1,0 +1,437 @@
+{
+  "20250326-V-wings": {
+    "slug": "20250326-V-wings",
+    "name": "薄皮焦香V翅",
+    "category": "小食",
+    "desc": "V翅来源于翅膀呈现V型。不同以往厚厚的外壳，全新的“薄皮配方”，在炙烤时能迅速在鸡翅表面形成保护膜，最大程度保持汁水丰盈、鸡肉嫩滑，每一口薄皮下都有肉有汁、滋味十足。独创的茄仔风味，是由熟成番茄带来的酸甜鲜美，搭配上肉汁的浓郁饱满、咸鲜馥郁、层次丰富、平衡解腻。从没吃到的鸡翅美味，新奇独特，吃过忘不了。",
+    "nutrition": {
+      "能量": "804千焦",
+      "蛋白质": "17克",
+      "脂肪": "11克",
+      "碳水化合物": "6克",
+      "钠": "594毫克",
+      "钙": "15毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/20250326-V-wings"
+  },
+  "Apple-Slice": {
+    "slug": "Apple-Slice",
+    "name": "苹果片",
+    "category": "小食",
+    "desc": "优选山东红富士，新鲜入口，清爽酸甜，为小朋友搭配营养均衡的一餐。",
+    "nutrition": {
+      "能量": "133千焦",
+      "蛋白质": "0克",
+      "脂肪": "0克",
+      "碳水化合物": "7克",
+      "钠": "0毫克",
+      "钙": "18毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Apple-Slice"
+  },
+  "Bacon-Lettuce-Tomato-Double-Beef-Burger": {
+    "slug": "Bacon-Lettuce-Tomato-Double-Beef-Burger",
+    "name": "培根蔬萃双层牛堡",
+    "category": "汉堡",
+    "desc": "一层爽脆生菜，一片鲜番茄，两片培根，两片牛肉，一层特别酱料！一口咬下去，超满足啦！",
+    "nutrition": {
+      "能量": "1850千焦",
+      "蛋白质": "24克",
+      "脂肪": "23克",
+      "碳水化合物": "34克",
+      "钠": "728毫克",
+      "钙": "73毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Bacon-Lettuce-Tomato-Double-Beef-Burger"
+  },
+  "Big-Chicken-Cutlet": {
+    "slug": "Big-Chicken-Cutlet",
+    "name": "那么大鸡排（椒盐风味）",
+    "category": "小食",
+    "desc": "裹满咔呲爆响的黄金脆衣，椒盐辛香颗粒在热力激发下口中跳跃迸发，咸鲜提味，辛香绕舌！每一口都嚼得到扎实肉感，外酥里嫩，过瘾！",
+    "nutrition": {
+      "能量": "1612千焦",
+      "蛋白质": "24克",
+      "脂肪": "21克",
+      "碳水化合物": "24克",
+      "钠": "996毫克",
+      "钙": "13毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Big-Chicken-Cutlet"
+  },
+  "Big-Mac": {
+    "slug": "Big-Mac",
+    "name": "巨无霸",
+    "category": "汉堡",
+    "desc": "传承50年的经典之选！两块100%纯牛肉饼，搭配撒有鲜芝麻的松软面包、清新爽口的生菜、洋葱和酸黄瓜，辅以香滑顺口的芝士与美味酱汁，层层食材，口感丰富，打造极致美味体验。",
+    "nutrition": {
+      "能量": "2146千焦",
+      "蛋白质": "27克",
+      "脂肪": "26克",
+      "碳水化合物": "42克",
+      "钠": "961毫克",
+      "钙": "171毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Big-Mac"
+  },
+  "Cheese-Angus": {
+    "slug": "Cheese-Angus",
+    "name": "芝士安格斯厚牛堡",
+    "category": "汉堡",
+    "desc": "精选100%安格斯牛肉饼，搭配秘制芝士风味酱和新鲜番茄片，独特热熔工艺让芝士慢慢融化，丝丝渗透进牛肉纤维中——半融化的芝士和肉饼的油脂相互交融，让口感更加丰富，浓香四溢！",
+    "nutrition": {
+      "能量": "2914千焦",
+      "蛋白质": "32克",
+      "脂肪": "44克",
+      "碳水化合物": "43克",
+      "钠": "897毫克",
+      "钙": "150毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Cheese-Angus"
+  },
+  "Cheeseburger": {
+    "slug": "Cheeseburger",
+    "name": "吉士汉堡包",
+    "category": "汉堡",
+    "desc": "100%纯牛肉与香软芝士融为一体，搭配爽脆酸黄瓜和洋葱颗粒，辅以美味酱料，丰富口感，一咬即刻涌现！",
+    "nutrition": {
+      "能量": "1231千焦",
+      "蛋白质": "16克",
+      "脂肪": "12克",
+      "碳水化合物": "30克",
+      "钠": "673毫克",
+      "钙": "144毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Cheeseburger"
+  },
+  "Chicken-McNuggets": {
+    "slug": "Chicken-McNuggets",
+    "name": "麦乐鸡 (5块)",
+    "category": "小食",
+    "desc": "严格挑选优质鸡肉，精密控制火候，锁住肉汁和香味。外皮金黄酥脆，鸡肉嫩滑多汁，配以秘制蘸酱，入口难忘。",
+    "nutrition": {
+      "能量": "890千焦",
+      "蛋白质": "12克",
+      "脂肪": "12克",
+      "碳水化合物": "13克",
+      "钠": "422毫克",
+      "钙": "9毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Chicken-McNuggets"
+  },
+  "Chocolate-Sundae": {
+    "slug": "Chocolate-Sundae",
+    "name": "朱古力新地",
+    "category": "甜品",
+    "desc": "醇香细腻的冰淇淋搭配香醇丝滑的朱古力酱，一口沉醉在醇厚的绵滑浓香之中。",
+    "nutrition": {
+      "能量": "1178千焦",
+      "蛋白质": "5克",
+      "脂肪": "9克",
+      "碳水化合物": "44克",
+      "钠": "126毫克",
+      "钙": "182毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Chocolate-Sundae"
+  },
+  "Coca-Cola-Zero": {
+    "slug": "Coca-Cola-Zero",
+    "name": "无糖可口可乐",
+    "category": "饮品",
+    "desc": "无糖畅爽，尽释美妙！",
+    "nutrition": {
+      "能量": "0千焦",
+      "蛋白质": "0克",
+      "脂肪": "0克",
+      "碳水化合物": "0克",
+      "钠": "25毫克",
+      "钙": "0毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Coca-Cola-Zero"
+  },
+  "Coca-Cola": {
+    "slug": "Coca-Cola",
+    "name": "可口可乐",
+    "category": "饮品",
+    "desc": "搭配正餐小食，好带劲！",
+    "nutrition": {
+      "能量": "446千焦",
+      "蛋白质": "0克",
+      "脂肪": "0克",
+      "碳水化合物": "26克",
+      "钠": "0毫克",
+      "钙": "7毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Coca-Cola"
+  },
+  "Cone": {
+    "slug": "Cone",
+    "name": "圆筒冰淇淋",
+    "category": "甜品",
+    "desc": "醇香细腻的冰淇淋搭配香脆圆筒，将清甜与松脆一口咬下！",
+    "nutrition": {
+      "能量": "391千焦",
+      "蛋白质": "2克",
+      "脂肪": "3克",
+      "碳水化合物": "14克",
+      "钠": "36毫克",
+      "钙": "77毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Cone"
+  },
+  "Corn-Cup": {
+    "slug": "Corn-Cup",
+    "name": "玉米杯",
+    "category": "小食",
+    "desc": "粒粒饱满，颗颗多汁。香！甜！爽！",
+    "nutrition": {
+      "能量": "223千焦",
+      "蛋白质": "2克",
+      "脂肪": "1克",
+      "碳水化合物": "7克",
+      "钠": "1毫克",
+      "钙": "6毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Corn-Cup"
+  },
+  "Double-Cheeseburger": {
+    "slug": "Double-Cheeseburger",
+    "name": "双层吉士汉堡",
+    "category": "汉堡",
+    "desc": "100%纯牛肉与双层香软芝士融为一体，搭配松软面包与美味酱料，两倍滋味诱惑，无人能挡！",
+    "nutrition": {
+      "能量": "1796千焦",
+      "蛋白质": "27克",
+      "脂肪": "22克",
+      "碳水化合物": "31克",
+      "钠": "1017毫克",
+      "钙": "232毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Double-Cheeseburger"
+  },
+  "Filet-O-Fish": {
+    "slug": "Filet-O-Fish",
+    "name": "麦香鱼",
+    "category": "汉堡",
+    "desc": "深海鳕鱼烹制而成的鳕鱼饼，外皮金黄酥脆，内里鲜嫩多汁。美味鱼肉搭配滋味沙拉酱，风味独特。",
+    "nutrition": {
+      "能量": "1359千焦",
+      "蛋白质": "16克",
+      "脂肪": "13克",
+      "碳水化合物": "35克",
+      "钠": "556毫克",
+      "钙": "99毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Filet-O-Fish"
+  },
+  "French-Fries": {
+    "slug": "French-Fries",
+    "name": "薯条",
+    "category": "小食",
+    "desc": "精选优质土豆，表面微脆，内里绵软，用少许盐调味，美味无人能挡！",
+    "nutrition": {
+      "能量": "444千焦",
+      "蛋白质": "2克",
+      "脂肪": "4克",
+      "碳水化合物": "14克",
+      "钠": "61毫克",
+      "钙": "6毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/French-Fries"
+  },
+  "Grilled-Chicken-Sandwich": {
+    "slug": "Grilled-Chicken-Sandwich",
+    "name": "板烧鸡腿堡",
+    "category": "汉堡",
+    "desc": "原块去骨鸡排嫩滑多汁，以洋葱及胡椒调味，再配上翠绿新鲜的生菜和烤味酱，0油煎制，绝对让你食指大动！从2024年10月8日起，板烧鸡腿堡全新升级。",
+    "nutrition": {
+      "能量": "1638千焦",
+      "蛋白质": "23克",
+      "脂肪": "17克",
+      "碳水化合物": "35克",
+      "钠": "1041毫克",
+      "钙": "93毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Grilled-Chicken-Sandwich"
+  },
+  "Hamburger": {
+    "slug": "Hamburger",
+    "name": "汉堡包",
+    "category": "汉堡",
+    "desc": "100%纯牛肉！以少许盐和胡椒调味，搭配爽脆酸黄瓜和洋葱粒，添加美味番茄酱，打造出经典好滋味。",
+    "nutrition": {
+      "能量": "1039千焦",
+      "蛋白质": "13克",
+      "脂肪": "8克",
+      "碳水化合物": "29克",
+      "钠": "492毫克",
+      "钙": "61毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Hamburger"
+  },
+  "McChicken": {
+    "slug": "McChicken",
+    "name": "麦香鸡",
+    "category": "汉堡",
+    "desc": "清脆爽口的生菜，给你植物纤维；金黄酥脆的鸡肉则来自精心培育的优质嫩鸡。营养配搭，让你多一个好滋味的健康选择。",
+    "nutrition": {
+      "能量": "1546千焦",
+      "蛋白质": "15克",
+      "脂肪": "17克",
+      "碳水化合物": "39克",
+      "钠": "731毫克",
+      "钙": "73毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/McChicken"
+  },
+  "Oreo-Mcflurry": {
+    "slug": "Oreo-Mcflurry",
+    "name": "奥利奥麦旋风",
+    "category": "甜品",
+    "desc": "冰淇淋的香滑与奥利奥饼干的香酥融为一体，奇妙黑白搭配，创造无限新奇滋味。",
+    "nutrition": {
+      "能量": "1115千焦",
+      "蛋白质": "5克",
+      "脂肪": "9克",
+      "碳水化合物": "40克",
+      "钠": "116毫克",
+      "钙": "185毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Oreo-Mcflurry"
+  },
+  "Pineapple-Pie": {
+    "slug": "Pineapple-Pie",
+    "name": "菠萝派",
+    "category": "甜品",
+    "desc": "软软的夹心，脆脆的外壳，咬一口，简直幸福到爆啦！",
+    "nutrition": {
+      "能量": "925千焦",
+      "蛋白质": "2克",
+      "脂肪": "11克",
+      "碳水化合物": "27克",
+      "钠": "147毫克",
+      "钙": "5毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Pineapple-Pie"
+  },
+  "Spicy-Chicken-Filet": {
+    "slug": "Spicy-Chicken-Filet",
+    "name": "麦辣鸡腿汉堡",
+    "category": "汉堡",
+    "desc": "为“中国胃”特别研发的当家产品，金黄脆辣的外表下是鲜嫩多汁的鸡腿肉，再配上清爽的生菜和美味沙拉酱，咬一口回味无穷，打动您挑剔的味蕾。",
+    "nutrition": {
+      "能量": "2029千焦",
+      "蛋白质": "24克",
+      "脂肪": "24克",
+      "碳水化合物": "42克",
+      "钠": "1208毫克",
+      "钙": "154毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Spicy-Chicken-Filet"
+  },
+  "Spicy-McWings": {
+    "slug": "Spicy-McWings",
+    "name": "麦辣鸡翅",
+    "category": "小食",
+    "desc": "精选优质白羽鸡翅，火辣惹味，刺激滋味瞬间爆棚。",
+    "nutrition": {
+      "能量": "937千焦",
+      "蛋白质": "13克",
+      "脂肪": "15克",
+      "碳水化合物": "9克",
+      "钠": "537毫克",
+      "钙": "13毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Spicy-McWings"
+  },
+  "Strawberry-Oreo-Mcflurry": {
+    "slug": "Strawberry-Oreo-Mcflurry",
+    "name": "草莓麦旋风",
+    "category": "甜品",
+    "desc": "冰淇淋的香滑与奥利奥饼干的香酥融为一体，再加上一点草莓酱，混合不一样的清新口味。",
+    "nutrition": {
+      "能量": "1234千焦",
+      "蛋白质": "6克",
+      "脂肪": "9克",
+      "碳水化合物": "47克",
+      "钠": "122毫克",
+      "钙": "186毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Strawberry-Oreo-Mcflurry"
+  },
+  "Strawberry-Sundae": {
+    "slug": "Strawberry-Sundae",
+    "name": "草莓新地",
+    "category": "甜品",
+    "desc": "醇香细腻的冰淇淋搭配鲜嫩可口的草莓酱，邂逅甜蜜回忆。",
+    "nutrition": {
+      "能量": "1027千焦",
+      "蛋白质": "4克",
+      "脂肪": "6克",
+      "碳水化合物": "43克",
+      "钠": "84毫克",
+      "钙": "158毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Strawberry-Sundae"
+  },
+  "Taro-Pie": {
+    "slug": "Taro-Pie",
+    "name": "香芋派",
+    "category": "甜品",
+    "desc": "软软的夹心，脆脆的外壳，咬一口，简直幸福到爆啦！",
+    "nutrition": {
+      "能量": "971千焦",
+      "蛋白质": "2克",
+      "脂肪": "12克",
+      "碳水化合物": "28克",
+      "钠": "159毫克",
+      "钙": "7毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Taro-Pie"
+  },
+  "Thick-Angus-Beef-Burger-with-Bacon": {
+    "slug": "Thick-Angus-Beef-Burger-with-Bacon",
+    "name": "培根安格斯厚牛堡",
+    "category": "汉堡",
+    "desc": "精选100%安格斯牛肉饼，搭配培根、黄车打芝士片和新鲜生菜，独特热熔工艺让芝士慢慢融化，丝丝渗透进牛肉纤维中——半融化的芝士和肉饼的油脂相互交融，让口感更加丰富，浓香四溢！",
+    "nutrition": {
+      "能量": "2959千焦",
+      "蛋白质": "34克",
+      "脂肪": "44克",
+      "碳水化合物": "43克",
+      "钠": "1037毫克",
+      "钙": "161毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/Thick-Angus-Beef-Burger-with-Bacon"
+  },
+  "beef-sausage": {
+    "slug": "beef-sausage",
+    "name": "不素之霸双层牛堡",
+    "category": "汉堡",
+    "desc": "特选两块100%纯牛肉饼，仅以少许盐和胡椒调味，搭配德式图林根香肠，肉感十足，吃得过瘾！",
+    "nutrition": {
+      "能量": "2062千焦",
+      "蛋白质": "28克",
+      "脂肪": "27克",
+      "碳水化合物": "34克",
+      "钠": "1012毫克",
+      "钙": "75毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/beef-sausage"
+  },
+  "double-fof": {
+    "slug": "double-fof",
+    "name": "双层深海鳕鱼堡",
+    "category": "汉堡",
+    "desc": "特选两整块深海鳕鱼饼，肉质洁白细腻，富含优质蛋白质，咬一口唇齿留香，满足加倍。美味与营养，两个我都要！（实际以餐厅供应为主）",
+    "nutrition": {
+      "能量": "2029千焦",
+      "蛋白质": "28克",
+      "脂肪": "21克",
+      "碳水化合物": "46克",
+      "钠": "917毫克",
+      "钙": "147毫克"
+    },
+    "url": "https://www.mcdonalds.com.cn/product/double-fof"
+  }
+}

@@ -1,0 +1,25 @@
+# 真实 MCP 配置（含 Token，严禁提交）
+mcp.json
+mcp-config.json
+
+# 点餐记录（用户个人数据）
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 官网抓取快照
+mcd_pages/
+*.html
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 注意：references/mcd_products.json 是需要提交的（商品数据），
+# 不要加入 .gitignore
