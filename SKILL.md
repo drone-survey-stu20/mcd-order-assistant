@@ -54,7 +54,9 @@ disable: false
 | `scripts/combo.py` | 随机套餐生成 |
 | `scripts/rhyme.py` | 套餐顺口溜评价生成 |
 | `scripts/orders.py` | 点餐记录增查与统计 |
-| `scripts/build_products.py` | 从官网重新抓取商品库 |
+| `scripts/fetch_nutrition.py` | 从 MCP 拉取官方营养数据 |
+| `scripts/merge_catalog.py` | 合并官网卖点与 MCP 营养为 catalog.json |
+| `scripts/build_products.py` | 从官网重新抓取商品描述 |
 
 `data/orders.json` 结构：
 ```json
@@ -78,9 +80,9 @@ disable: false
 
 ## A. 推荐热门产品
 
-1. 读 `references/mcd_products.json`。
+1. 读 `references/catalog.json`（158 项）。
 2. 若 MCP 已连接，先查当前**进行中的活动**与**可领优惠券**，把活动关联商品提权（活动商品 > 经典常青）。
-3. 按用户场景过滤：想吃饱看汉堡，想清爽看甜品饮品，孩子看苹果片/玉米杯，早餐看早餐类。场景化方案见 `references/recipes.md`。
+3. 按用户场景过滤：想吃饱看汉堡，想清爽看甜品饮品，孩子看儿童餐类，早餐看早餐类（17 项）。场景化方案见 `references/recipes.md`。
 4. 输出 2-3 个候选，每个三行内：名称 + 官网描述原文摘录 + 关键营养数据。
 
 推荐话术示例：
