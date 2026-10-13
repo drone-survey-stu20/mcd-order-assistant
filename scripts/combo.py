@@ -18,13 +18,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import rhyme as rhyme_mod
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DB_PATH = os.path.join(BASE, "references", "mcd_products.json")
+DB_PATH = os.path.join(BASE, "references", "catalog.json")
 
 # 经典高热度商品，作为随机时的加权种子
 HOT = {
     "巨无霸", "麦辣鸡腿汉堡", "板烧鸡腿堡", "麦香鸡", "双层吉士汉堡",
-    "麦乐鸡 (5块)", "薯条", "麦辣鸡翅", "那么大鸡排（椒盐风味）",
-    "圆筒冰淇淋", "奥利奥麦旋风", "朱古力新地", "可口可乐", "无糖可口可乐",
+    "麦乐鸡5块", "中薯条", "麦辣鸡翅-2块", "那么大鸡排",
+    "圆筒冰淇淋", "奥利奥麦旋风", "朱古力新地", "可乐中杯", "无糖可口可乐中杯",
 }
 
 NAME_SETS = {
@@ -44,8 +44,16 @@ def combo_name(rng, level):
 
 
 def load_db():
+    """读取统一商品库，返回 {名称: 商品} 字典。
+
+    catalog.json 为 merge_catalog.py 产物：营养来自 MCP，卖点描述来自官网原文。
+    兼容旧的 mcd_products.json（以 slug 为键）。
+    """
     with open(DB_PATH, encoding="utf-8") as f:
-        return json.load(f)
+        raw = json.load(f)
+    if "items" in raw:                      # 新结构
+        return {i["name"]: i for i in raw["items"]}
+    return raw                              # 旧结构已是 {slug: 商品}
 
 
 def parse_energy(nutrition):
@@ -60,8 +68,17 @@ def parse_gram(nutrition, key):
 
 
 def weighted_sample(items, rng):
-    """热门商品权重更高：热门权重 3，普通权重 1。"""
-    weights = [3 if it["name"] in HOT else 1 for it in items]
+    """热门商品权重更高：热门 3，有官网描述 2，普通 1。
+
+    卖点描述只能来自官网原文，因此有描述的商品优先被选中；
+    无描述时可被选中，但输出时不得编造卖点。
+    """
+    weights = []
+    for it in items:
+        w = 3 if it["name"] in HOT else 1
+        if it.get("desc"):
+            w += 2
+        weights.append(w)
     return rng.choices(items, weights=weights, k=1)[0]
 
 
@@ -71,8 +88,14 @@ def pick(items, rng):
 
 
 def score_desc(p, limit=70):
-    """截取官网描述中较有信息量的一段作为优点摘要，尽量在句末断开。"""
-    d = re.sub(r"\s+", "", p["desc"])
+    """截取官网描述中较有信息量的一段作为优点摘要，尽量在句末断开。
+
+    商品若没有官网描述（MCP 独有品项），返回空串——由调用方标注"官网暂无描述"，
+    绝不在此处编造卖点。
+    """
+    d = re.sub(r"\s+", "", p.get("desc") or "")
+    if not d:
+        return ""
     # 描述本身就短（<=limit）时直接全文引用，不做截断
     if len(d) <= limit:
         return d
@@ -98,6 +121,7 @@ def build_combo(db, rng, want_dessert=True, used_mains=None):
         by_cat.setdefault(p["category"], []).append(p)
 
     burgers = by_cat.get("汉堡", []) or by_cat.get("早餐", [])
+    # 早餐时段可并入早餐类（由调用方传入时段参数控制，此处保留汉堡优先）
     if used_mains:
         remaining = [b for b in burgers if b["name"] not in used_mains]
         if remaining:
@@ -159,7 +183,10 @@ def render(items, rng, idx=None, name=None, level=None, summary=None, detail=Non
         out.append(f"\n【{p['category']}】{p['name']}")
         out.append(f"  优点：{score_desc(p)}")
         out.append(f"  营养：能量 {n['能量']}｜蛋白质 {n['蛋白质']}｜脂肪 {n['脂肪']}｜钠 {n['钠']}")
-        out.append(f"  官网：{p['url']}")
+        if p.get("desc"):
+            out.append(f"  卖点来源：麦当劳官网 {p.get('desc_url','')}")
+        else:
+            out.append("  卖点：该商品官网暂无描述，以门店/官方渠道展示为准")
 
     out.append("\n" + "-" * 46 + f"\n【整体评价】{summary}")
     if detail:
@@ -240,7 +267,8 @@ def main():
             "over_kj_limit": overflow,
             "items": [
                 {"name": p["name"], "category": p["category"],
-                 "desc": score_desc(p), "nutrition": p["nutrition"], "url": p["url"]}
+                 "desc": score_desc(p), "nutrition": p["nutrition"],
+                 "desc_url": p.get("desc_url", "")}
                 for p in items
             ],
         }
